@@ -1,0 +1,22 @@
+body ,html{
+   
+   height: 100%;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   background:#EE5A24 ;
+
+   /*centrar el login al centro de la pagina*/
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-box{
+   /**/
+   width: 300px;
+}
