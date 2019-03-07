@@ -6,7 +6,7 @@ body ,html{
 body{
    margin: 0;
    padding: 0;
-   background:#EE5A24 ;
+   background:#12CBC4 ;
 
    /*centrar el login al centro de la pagina*/
    display: flex;
@@ -19,4 +19,39 @@ body{
 .form-box{
    /**/
    width: 300px;
+   padding: 40px;
+   background: #485460;
+   text-align: center;
+}
+
+form-title{
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+
+   border: 0;
+   background: none;
+   display: block;
+   margin: 20px auto;
+   padding: 14px 10px;
+   text-align: center;
+   border: 2px solid #3742fa;
+   width: 200px;
+   outline: none;
+   color: #fff;
+   border-radius: 20px;
+   transition: 0.25s;
+}
+
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+
+   width: 280px;
+   border-color: #fff;
 }
